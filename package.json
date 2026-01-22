@@ -1,0 +1,66 @@
+{
+  "name": "waypointjs",
+  "version": "1.0.0",
+  "description": "Framework-agnostic, map-agnostic route planning library with provider-based directions. Build custom route planning features with any mapping service.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "waypointjs",
+    "route",
+    "route-planner",
+    "route-planning",
+    "directions",
+    "navigation",
+    "waypoints",
+    "mapping",
+    "geo",
+    "geolocation",
+    "gps",
+    "typescript",
+    "mapbox",
+    "google-maps",
+    "openstreetmap",
+    "running",
+    "cycling",
+    "fitness"
+  ],
+  "author": "Brandon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onamfc/waypointjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onamfc/waypointjs/issues"
+  },
+  "homepage": "https://github.com/onamfc/waypointjs#readme",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "sideEffects": false
+}
